@@ -1,0 +1,10 @@
+git init ----创建版本库
+git add filename ------添加文件
+git commit -m "这次提交的说明" ----提交
+git status ----查看当前工作去的状态
+git diff filename ----查看文件修改的状态
+git log -----查看提交历史
+git relog ------查看历史命令
+git reset --head commit.id
+git remote add origin git@github.com:michaelliao/learngit.git --设置要提交的远程库
+git push -u origin master
